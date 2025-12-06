@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370.08 370.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c5c5c4;
+      }
+
+      .cls-2 {
+        fill: #8e9395;
+      }
+
+      .cls-3 {
+        fill: #717578;
+      }
+
+      .cls-4 {
+        fill: #e2e3df;
+      }
+
+      .cls-5 {
+        fill: #c1c4c1;
+      }
+
+      .cls-6 {
+        fill: #fa735d;
+      }
+
+      .cls-7 {
+        fill: #e6e5e2;
+      }
+
+      .cls-8 {
+        fill: #e8e7e4;
+      }
+
+      .cls-9 {
+        fill: #6c7074;
+      }
+
+      .cls-10 {
+        fill: #9fa1a3;
+      }
+    </style>
+  </defs>
+  <g id="Layer_11" data-name="Layer 11">
+    <circle class="cls-6" cx="211.93" cy="53.74" r="26.82"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <polygon class="cls-9" points="222.48 72.06 211.93 59.71 207.43 72.06 222.48 72.06"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <polygon class="cls-5" points="201.07 92.68 207.43 72.06 211.93 59.71 184.24 73.7 201.07 92.68"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <polygon class="cls-10" points="181.08 70.57 184.24 73.7 211.93 59.71 207.43 58.63 181.08 70.57"/>
+  </g>
+  <g id="Layer_5" data-name="Layer 5">
+    <polyline class="cls-4" points="201.07 92.68 184.24 73.7 181.08 70.57 155.19 40.99 154.31 90.72 201.07 92.68"/>
+  </g>
+  <g id="Layer_6" data-name="Layer 6">
+    <polygon class="cls-1" points="157.24 116.16 154.31 90.72 201.07 92.68 157.24 116.16"/>
+  </g>
+  <g id="Layer_7" data-name="Layer 7">
+    <polygon class="cls-8" points="154.31 90.72 97.41 30.3 155.19 40.99 154.31 90.72"/>
+  </g>
+  <g id="Layer_8" data-name="Layer 8">
+    <polygon class="cls-2" points="92.97 50.12 116.08 50.12 154.31 90.72 92.97 50.12"/>
+  </g>
+  <g id="Layer_9" data-name="Layer 9">
+    <polygon class="cls-3" points="157.24 116.16 145.54 119.25 154.31 90.72 157.24 116.16"/>
+  </g>
+  <g id="Layer_10" data-name="Layer 10">
+    <polygon class="cls-7" points="143.19 127.21 145.54 119.25 154.31 90.72 111.49 133.08 143.19 127.21"/>
+  </g>
+</svg>
