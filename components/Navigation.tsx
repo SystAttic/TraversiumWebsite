@@ -31,7 +31,7 @@ export default function Navigation() {
       // Store scroll position for restoration
       document.body.setAttribute('data-scroll-position', scrollY.toString())
     } else {
-      // Restore scroll position
+      // Restore scroll position only if we're not navigating (check if attribute still exists)
       const scrollY = document.body.getAttribute('data-scroll-position')
       
       // Remove styles
@@ -40,7 +40,7 @@ export default function Navigation() {
       document.body.style.top = 'unset'
       document.body.style.width = 'unset'
       
-      // Restore scroll position
+      // Restore scroll position only if attribute exists (wasn't cleared by navigation)
       if (scrollY) {
         window.scrollTo(0, parseInt(scrollY, 10))
         document.body.removeAttribute('data-scroll-position')
@@ -59,6 +59,13 @@ export default function Navigation() {
       }
     }
   }, [mobileMenuOpen])
+
+  // Helper function to close menu and clear scroll position (for navigation)
+  const handleNavigationClick = () => {
+    // Clear saved scroll position before closing menu
+    document.body.removeAttribute('data-scroll-position')
+    setMobileMenuOpen(false)
+  }
 
   // Close menu on escape key
   useEffect(() => {
@@ -194,28 +201,28 @@ export default function Navigation() {
             <TransitionLink
               href="/"
               className="text-dark-textMuted hover:text-white transition-colors py-4 border-b border-dark-border"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleNavigationClick}
             >
               Home
             </TransitionLink>
             <TransitionLink
               href="/#features"
               className="text-dark-textMuted hover:text-white transition-colors py-4 border-b border-dark-border"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleNavigationClick}
             >
               Features
             </TransitionLink>
             <TransitionLink
               href="/about"
               className="text-dark-textMuted hover:text-white transition-colors py-4 border-b border-dark-border"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleNavigationClick}
             >
               About Us
             </TransitionLink>
             <TransitionLink
               href="/download"
               className="text-dark-textMuted hover:text-white transition-colors py-4 border-b border-dark-border"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleNavigationClick}
             >
               Download
             </TransitionLink>
