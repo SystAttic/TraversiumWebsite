@@ -39,7 +39,7 @@ export default function Footer() {
               </li>
               <li>
                 <TransitionLink
-                  href="/#features"
+                  href="/features"
                   className="text-dark-textMuted hover:text-white transition-colors text-sm"
                 >
                   Features

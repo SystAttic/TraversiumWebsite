@@ -110,7 +110,7 @@ export default function Navigation() {
               Home
             </TransitionLink>
             <TransitionLink
-              href="/#features"
+              href="/features"
               className="text-dark-textMuted hover:text-white transition-colors"
             >
               Features
@@ -206,7 +206,7 @@ export default function Navigation() {
               Home
             </TransitionLink>
             <TransitionLink
-              href="/#features"
+              href="/features"
               className="text-dark-textMuted hover:text-white transition-colors py-4 border-b border-dark-border"
               onClick={handleNavigationClick}
             >
