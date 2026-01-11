@@ -53,6 +53,14 @@ export default function Footer() {
                   About Us
                 </TransitionLink>
               </li>
+              <li>
+                <TransitionLink
+                  href="/download"
+                  className="text-dark-textMuted hover:text-white transition-colors text-sm"
+                >
+                  Download
+                </TransitionLink>
+              </li>
             </ul>
           </div>
 
