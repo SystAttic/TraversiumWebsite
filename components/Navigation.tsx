@@ -58,6 +58,12 @@ export default function Navigation() {
             >
               About Us
             </TransitionLink>
+            <TransitionLink
+              href="/download"
+              className="text-dark-textMuted hover:text-white transition-colors"
+            >
+              Download
+            </TransitionLink>
             <a
               href="#coming-soon"
               className="px-6 py-2.5 bg-accent-primary hover:bg-accent-primaryLight rounded-lg text-white font-medium transition-colors"

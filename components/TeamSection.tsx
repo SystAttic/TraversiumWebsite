@@ -6,27 +6,27 @@ import Image from 'next/image'
 const teamMembers = [
   {
     name: 'Ožbej Pavc',
-    role: 'Founder & Frontend developer',
-    description: 'I love travelling and consequently came up with the Traversium idea.',
+    role: 'Project Lead & Frontend Developer',
+    description: 'Someone who comes up with too many project ideas.',
     image: '/assets/team/ozbej.jpeg',
   },
   {
     name: 'Maja Razinger',
-    role: 'Backend & Infrastructure',
-    description: 'I love coffee and solving other people\'s problems.',
+    role: 'Backend & Infrastructure Team Leader',
+    description: 'A cozy programmer who loves to chill with her cats.',
     image: '/assets/team/maja.jpeg',
   },
   {
     name: 'Dejan Jarc',
-    role: 'Backend developer',
-    description: 'In my FRI time I like to play games with the colleague on the right.',
+    role: 'Backend & Infrastructure Developer',
+    description: 'Gamer and Fitness enthusiast.',
     image: '/assets/team/dejan.jpeg',
   },
   {
     name: 'Jure Zupančič',
-    role: 'Backend developer',
-    description: 'In my FRI time I like to play games with the colleague on the left.',
-    image: '/assets/team/jure.jpeg',
+    role: 'Backend & Infrastructure Developer',
+    description: 'Enjoying FRI time learning new technologies.',
+    image: '/assets/team/jure.jpg',
   },
 ]
 
